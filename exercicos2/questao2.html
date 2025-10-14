@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex{
+            display: flex;
+        }
+
+        .amarelo{
+            background-color: #f3ac3c;
+        }
+
+        .quadrado-verde{
+            width: 200px;
+            height: 200px;
+            background-color: #1a4341;
+            align-items: flex-end;
+        }
+
+        .quadrado-amarelo{
+            width: 100px;
+            height: 100px;
+            background: #998235;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+
+        .gold{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container flex amarelo">
+        <div class="quadrado-verde flex">
+            <div class="quadrado-amarelo flex">
+                <div class="gold amarelo"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

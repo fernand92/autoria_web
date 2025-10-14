@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 300px;
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .lado{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .direito{
+            align-items: flex-end;
+        }
+
+        .linha {
+            width: 200px;
+            height: 27px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="lado direito">
+            <div class="linha"></div>
+            <div class="linha"></div>
+            <div class="linha"></div>
+        </div>
+        <div class="lado esquerdo">
+            <div class="linha"></div>
+            <div class="linha"></div>
+            <div class="linha"></div>
+        </div>
+    </div>
+</body>
+
+</html>
